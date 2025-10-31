@@ -1,0 +1,1 @@
+# wg-wechat-mini-helper
