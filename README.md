@@ -27,7 +27,7 @@
 
 ## 3.界面预览
 
-<img width="1331" height="905" alt="image" src="https://github.com/user-attachments/assets/c3753891-f26f-4988-988e-5c2c139cca69" />
+<img width="1357" height="927" alt="image" src="https://github.com/user-attachments/assets/eef2d0a4-cd0d-441f-b21a-06f487557500" />
 
 ## 4.规则编写
 
