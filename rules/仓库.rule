@@ -1,0 +1,2 @@
+# 常见Git仓库匹配
+(?:github\.com|gitlab\.com|gitee\.com|gitcode\.com)/[\w._-]+/[\w._-]+

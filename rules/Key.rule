@@ -1,0 +1,65 @@
+# 通用1
+(?i)(?P<key>(?:[\w.-_]key|token|secret|password|pass(?:word|wd)?|credential|auth)[\w.-]*["']?\s*(?:=|:=|:|=>)\s*["'][0-9a-zA-Z\-_=+/!@#$%^&*]{8,64}["'])
+
+# 通用2,显示字段名（速率偏慢）
+# (?i)(?P<key>["']?[\w.-_]*(?:[\w.-_]key|token|secret|password|pass(?:word|wd)?|credential|auth)[\w.-]*["']?\s*(?:=|:=|:|=>)\s*["'][0-9a-zA-Z\-_=+/!@#$%^&*]{8,64}["'])
+
+# Amazon Web Services (AWS)
+['"](?P<key>AKIA[A-Za-z0-9]{16})['"]
+
+# Google Cloud Platform (GCP)
+['"](?P<key>GOOG[\w-]{10,30})['"]
+
+# Microsoft Azure
+['"](?P<key>AZ[A-Za-z0-9]{34,40})['"]
+
+# IBM Cloud
+['"](?P<key>IBM[A-Za-z0-9]{10,40})['"]
+
+# Oracle Cloud
+['"](?P<key>OCID[A-Za-z0-9]{10,40})['"]
+
+# Alibaba Cloud (阿里云)
+['"](?P<key>LTAI[A-Za-z0-9]{12,20})['"]
+
+# Tencent Cloud (腾讯云)
+['"](?P<key>AKID[A-Za-z0-9]{13,20})['"]
+
+# Baidu Cloud (百度云)
+['"](?P<key>AK[A-Za-z0-9]{10,40})['"]
+
+# JD Cloud (京东云)
+['"](?P<key>JDC_[A-Z0-9]{28,32})['"]
+
+# ByteDance Volcengine (字节跳动火山引擎)
+['"](?P<key>AKLT[a-zA-Z0-9-_]{16,252})['"]
+
+# UCloud
+['"](?P<key>UC[A-Za-z0-9]{10,40})['"]
+
+# QingCloud (青云)
+['"](?P<key>QY[A-Za-z0-9]{10,40})['"]
+
+# Kingsoft Cloud (金山云)
+['"](?P<key>AKLT[a-zA-Z0-9-_]{16,28})['"]
+
+# China Unicom Cloud (联通云)
+['"](?P<key>LTC[A-Za-z0-9]{10,60})['"]
+
+# China Mobile Cloud (移动云)
+['"](?P<key>YD[A-Za-z0-9]{10,60})['"]
+
+# China Telecom Cloud (中国电信云)
+['"](?P<key>CTC[A-Za-z0-9]{10,60})['"]
+
+# YiYunTong Cloud (一云通)
+['"](?P<key>YYT[A-Za-z0-9]{10,60})['"]
+
+# Yonyou Cloud (用友云)
+['"](?P<key>YY[A-Za-z0-9]{10,40})['"]
+
+# OUCDC (南大通用云)
+['"](?P<key>CI[A-Za-z0-9]{10,40})['"]
+
+# G-Core Labs
+['"](?P<key>gcore[A-Za-z0-9]{10,30})['"]

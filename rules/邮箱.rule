@@ -1,0 +1,2 @@
+# 基础邮箱格式匹配
+[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(?!(png|jpg|jpeg|gif|svg|webp|ico)\b)[a-zA-Z]{2,}\b

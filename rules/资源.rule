@@ -1,0 +1,6 @@
+# 协议前缀
+\bhttps?://[^\s'"`<>\)]+?\.(?:m?js|cjs|json|xml|csv|mp3|wav|aac|flac|ogg|m4a|wma|mp4|mov|avi|wmv|flv|mkv|webm|mpe?g|3gp|pdf|docx?|xlsx?|pptx?|txt|rtf|md|zip|rar|7z|tar\.(?:gz|bz2)|apk|exe|dmg|iso|png|jpe?g|gif|bmp|webp|ico)(?:\?[^\s'"`<>\)]*)?
+
+# 不带协议前缀（不包含 js，json干扰）
+['"](?P<source>/{0,2}(?:\.{1,2}/)*[^\s'"`<>]+?\.(?:xml|csv|mp3|wav|aac|flac|ogg|m4a|wma|mp4|mov|avi|wmv|flv|mkv|webm|mpe?g|3gp|pdf|docx?|xlsx?|pptx?|txt|rtf|md|zip|rar|7z|tar\.(?:gz|bz2)|apk|exe|dmg|iso|png|jpe?g|gif|bmp|webp|ico)(?:\?[^'"`<>]*)?)['"]
+

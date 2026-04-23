@@ -1,0 +1,2 @@
+# 相对路径
+(?i)["'](?P<path>/[\w-]+(?:/[\w-./?%&=]*)*)(?:\.(?:m?js|cjs|json|xml|csv|mp3|wav|aac|flac|ogg|m4a|wma|mp4|mov|avi|wmv|flv|mkv|webm|mpe?g|3gp|pdf|docx?|xlsx?|pptx?|txt|rtf|md|zip|rar|7z|tar\.(?:gz|bz2)|apk|exe|dmg|iso|css|scss|less|map|woff2?|ttf|eot|otf|png|jpe?g|gif|bmp|webp|svgz?|ico))?["']
